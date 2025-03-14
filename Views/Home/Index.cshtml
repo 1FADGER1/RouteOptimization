@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="map-container">
+    <div id="menu">
+        <input type="text" id="pointInput" placeholder="Введите координаты (широта, долгота)">
+        <button id="findPoint" class="button-menu">Найти точку</button>
+        <button id="buildRoute" class="button-menu">Создать маршрут</button>
+        <ul id="pointsList"></ul>
+        <p id="routeInfo"></p>
+    </div>
+
+    <div id="map"></div>
+</div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteOptimization", "RouteOptimization.csproj", "{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9249543A-8BA8-459D-85ED-08B3CF639D7A}
+	EndGlobalSection
+EndGlobal
