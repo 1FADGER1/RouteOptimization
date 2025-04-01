@@ -1,0 +1,159 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+#map {
+    flex: 1;
+}
+
+#pointInput {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ff9800;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+#pointInput:focus {
+    border-color: #ff5722;
+    outline: none;
+}
+
+#menu {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Чёрный с прозрачностью */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px); /* Размытие фона */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    z-index: 1000;
+}
+
+#pointsList {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.temp-marker {
+    position: relative;
+    background: #fff;
+    border: 1px solid #aaa;
+    width: 80px;
+    height: 20px;
+    left: -40px;
+    top: -21px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.permanent-marker {
+    position: relative;
+    background: #ff9800;
+    color: white;
+    border: 1px solid #fff;
+    width: 60px;
+    height: 20px;
+    left: -30px;
+    top: -21px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.button-menu {
+    background: #ff9800;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px; /* Скруглённые углы */
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 4px;
+}
+
+.navbar {
+    background-color: #1E1E1E !important;
+    border-bottom: 2px solid #333;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #FFD700 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #CCCCCC !important;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFFFF !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+    background-color: #1E1E1E;
+    color: #CCCCCC;
+    padding: 0px 0;
+    border-top: 2px solid #333;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #FFD700;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #FFFFFF;
+}

@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "MapProxyController",
+    "Method": "GetMapImage",
+    "RelativePath": "api/MapProxy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "url",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

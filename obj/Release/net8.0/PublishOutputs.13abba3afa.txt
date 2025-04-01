@@ -1,0 +1,7 @@
+D:\разработка\RouteOptimization\obj\Release\net8.0\PubTmp\Out\RouteOptimization.exe
+D:\разработка\RouteOptimization\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\разработка\RouteOptimization\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\разработка\RouteOptimization\obj\Release\net8.0\PubTmp\Out\RouteOptimization.dll
+D:\разработка\RouteOptimization\obj\Release\net8.0\PubTmp\Out\RouteOptimization.deps.json
+D:\разработка\RouteOptimization\obj\Release\net8.0\PubTmp\Out\RouteOptimization.runtimeconfig.json
+D:\разработка\RouteOptimization\obj\Release\net8.0\PubTmp\Out\RouteOptimization.pdb

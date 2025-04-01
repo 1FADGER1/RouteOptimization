@@ -32,3 +32,4 @@ D:\разработка\RouteOptimization\obj\Debug\net8.0\refint\RouteOptimizat
 D:\разработка\RouteOptimization\obj\Debug\net8.0\RouteOptimization.pdb
 D:\разработка\RouteOptimization\obj\Debug\net8.0\RouteOptimization.genruntimeconfig.cache
 D:\разработка\RouteOptimization\obj\Debug\net8.0\ref\RouteOptimization.dll
+D:\разработка\RouteOptimization\obj\Debug\net8.0\RouteOptimization.sourcelink.json

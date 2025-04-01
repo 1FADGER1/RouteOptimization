@@ -1,14 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Главная";
 }
 
 <div class="map-container">
+    <button id="burgerBtn" class="burger-btn">☰</button>
     <div id="menu">
-        <input type="text" id="pointInput" placeholder="Введите координаты (широта, долгота)">
+        <input type="text" id="pointInput" placeholder="Введите координаты или адрес">
         <button id="findPoint" class="button-menu">Найти точку</button>
         <button id="buildRoute" class="button-menu">Создать маршрут</button>
         <ul id="pointsList"></ul>
         <p id="routeInfo"></p>
+        <button id="exportPdf" class="button-menu">Экспорт в PDF</button>
     </div>
 
     <div id="map"></div>

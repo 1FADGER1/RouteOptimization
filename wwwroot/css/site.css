@@ -28,6 +28,46 @@ body {
     width: 100%;
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.button-github {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #24292e; /* Цвет GitHub */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-github:hover {
+    background-color: #1f2328;
+}
+
+.clear-button {
+    background-color: #c0392b !important; /* Красный для "Очистить всё" */
+}
+
+.clear-button:hover {
+    background-color: #960f00;
+}
+
+.parking-input {
+    width: 50px;
+    padding: 2px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
 #map {
     flex: 1;
 }
@@ -53,16 +93,14 @@ body {
     position: absolute;
     top: 80px;
     right: 20px;
-    background: rgba(0, 0, 0, 0.6); /* Чёрный с прозрачностью */
+    background: rgba(0, 0, 0, 0.6);
     color: white;
     padding: 15px;
     border-radius: 10px;
-    backdrop-filter: blur(5px); /* Размытие фона */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    backdrop-filter: blur(5px);
     min-width: 200px;
     z-index: 1000;
+    display: none;
 }
 
 #pointsList {
@@ -96,6 +134,31 @@ body {
     top: -21px;
     text-align: center;
     font-size: 12px;
+}
+
+#menu.menu-visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.burger-btn {
+    position: absolute;
+    top: 70px;
+    right: 5px;
+    z-index: 1001;
+    background: #ff9800;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.burger-btn:hover {
+    background: #e68a00;
 }
 
 .button-menu {
