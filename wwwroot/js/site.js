@@ -89,34 +89,33 @@ function exportToPdf() {
     const mapCenter = [centerLat, centerLon];
     const size = "450,450"; // Максимальный размер для бесплатной версии без ключа
 
+    const uniquePoints = [...validPoints];
+    if (validPoints.length > 1 &&
+        validPoints[0].coords[0] === validPoints[validPoints.length - 1].coords[0] &&
+        validPoints[0].coords[1] === validPoints[validPoints.length - 1].coords[1]) {
+        uniquePoints.pop(); // Удаляем последнюю точку, если она совпадает с первой
+    }
+
     // Формируем строку с точками маршрута из исходного массива points
-    const markers = validPoints.map((point, index) =>
+    const markers = uniquePoints.map((point, index) =>
         `${point.coords[1]},${point.coords[0]},pm2blm${index + 1}` // Долгота,широта,метка
     ).join("~");
 
-    console.log("Валидные точки для меток:", validPoints); // Для отладки
+    console.log("Валидные точки для меток:", uniquePoints); // Для отладки
     console.log("Сформированные метки:", markers); // Для отладки
 
-    // Извлекаем координаты маршрута из route.getActiveRoute().getPaths()
+    // Извлекаем координаты маршрута
     let polyline = "";
-    if (route.getActiveRoute()) {
-        const paths = route.getActiveRoute().getPaths();
-        const pathCoordinates = [];
-        paths.each(path => {
-            const coords = path.geometry?.getCoordinates();
-            if (coords && Array.isArray(coords)) {
-                pathCoordinates.push(...coords);
-            }
-        });
-
-        // Формируем строку для параметра pl (полилиния)
-        if (pathCoordinates.length > 0) {
-            polyline = pathCoordinates.map(coord => `${coord[1]},${coord[0]}`).join(",");
-        }
+    if (routeCoordinates.length > 0) {
+        polyline = routeCoordinates.map(coord => `${coord[1]},${coord[0]}`).join(",");
     }
 
     // URL для Static API через прокси (без ключа)
     const staticMapUrl = `https://static-maps.yandex.ru/1.x/?ll=${mapCenter[1]},${mapCenter[0]}&z=${zoom}&size=${size}&l=map&pt=${markers}`;
+
+    //вы можете использовать свой ключ в запросе
+    //const staticMapUrl = `https://static-maps.yandex.ru/1.x/?key=YOUR_API_KEY_STATIC&ll=${mapCenter[1]},${mapCenter[0]}&z=${zoom}&size=${size}&l=map&pt=${markers}`;
+
     if (polyline) {
         staticMapUrl += `&pl=c:FF0000FF,w:5,${polyline}`; // Добавляем полилинию (маршрут)
     }
@@ -237,6 +236,7 @@ let points = [];
 let geocodePromises = [];
 let tempMarker = null;
 let optimizedPoints = [];
+let routeCoordinates = [];
 
 function initMap() {
     map = new ymaps.Map("map", {
@@ -458,6 +458,16 @@ async function buildOptimizedRoute() {
     multiRoute.model.events.add('requestsuccess', function () {
         const activeRoute = multiRoute.getActiveRoute();
         if (activeRoute) {
+            routeCoordinates = [];
+            const paths = activeRoute.getPaths();
+            paths.each(path => {
+                const coords = path.geometry?.getCoordinates();
+                if (coords && Array.isArray(coords)) {
+                    routeCoordinates.push(...coords);
+                } else {
+                    console.warn("Не удалось получить координаты маршрута для пути:", path);
+                }
+            });
             const duration = activeRoute.properties.get("duration").value;
             const distance = activeRoute.properties.get("distance").value;
             const travelMinutes = Math.round(duration / 60);

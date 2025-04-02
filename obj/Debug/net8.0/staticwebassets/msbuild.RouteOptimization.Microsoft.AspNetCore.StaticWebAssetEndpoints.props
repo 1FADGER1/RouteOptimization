@@ -24,17 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Mar 2025 13:59:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/RouteOptimization/js/site.5opk3a29zu.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5opk3a29zu"},{"Name":"integrity","Value":"sha256-9WkfZgBZ3gFx/I/eatkIXyWFu79/j8pGVFG8RjBTaZM="},{"Name":"label","Value":"_content/RouteOptimization/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1136208"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229WkfZgBZ3gFx/I/eatkIXyWFu79/j8pGVFG8RjBTaZM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 01 Apr 2025 22:33:53 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RouteOptimization/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9WkfZgBZ3gFx/I/eatkIXyWFu79/j8pGVFG8RjBTaZM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1136208"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229WkfZgBZ3gFx/I/eatkIXyWFu79/j8pGVFG8RjBTaZM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 01 Apr 2025 22:33:53 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WY\u002BLtac8aLxjsWcatfTs3dxbUsOpay9CpCcZZmLfFYA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1137278"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WY\u002BLtac8aLxjsWcatfTs3dxbUsOpay9CpCcZZmLfFYA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 01:13:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RouteOptimization/js/site.xyjdl9nq7t.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xyjdl9nq7t"},{"Name":"integrity","Value":"sha256-WY\u002BLtac8aLxjsWcatfTs3dxbUsOpay9CpCcZZmLfFYA="},{"Name":"label","Value":"_content/RouteOptimization/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1137278"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022WY\u002BLtac8aLxjsWcatfTs3dxbUsOpay9CpCcZZmLfFYA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 01:13:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RouteOptimization/lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>

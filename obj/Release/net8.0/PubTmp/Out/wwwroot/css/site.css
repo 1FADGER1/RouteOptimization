@@ -28,6 +28,38 @@ body {
     width: 100%;
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.button-github {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #24292e; /* Цвет GitHub */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-github:hover {
+    background-color: #1f2328;
+}
+
+.clear-button {
+    background-color: #c0392b !important; /* Красный для "Очистить всё" */
+}
+
+.clear-button:hover {
+    background-color: #960f00;
+}
+
 .parking-input {
     width: 50px;
     padding: 2px;
