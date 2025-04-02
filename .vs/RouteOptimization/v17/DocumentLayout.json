@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|d:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\routeoptimization\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|d:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\routeoptimization\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|d:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\routeoptimization\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|d:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\routeoptimization\\routeoptimization.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-02T00:49:35.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "site.js",
               "DocumentMoniker": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -63,8 +63,7 @@
               "ToolTip": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\RouteOptimization.csproj",
               "RelativeToolTip": "RouteOptimization.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-01T23:53:01.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T23:53:01.577Z"
             }
           ]
         },

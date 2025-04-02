@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RouteOptimization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+005aadee97a023cbe10afb00f38894affe78e47c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f401cf264c9c9c8829ee827f7944e6eae84ee9fe")]
 [assembly: System.Reflection.AssemblyProductAttribute("RouteOptimization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RouteOptimization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
