@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|d:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\routeoptimization\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|d:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\routeoptimization\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|d:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\routeoptimization\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|d:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\routeoptimization\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{89CBC4E6-1488-49E5-BEA2-6CC6B8B78BCE}|RouteOptimization.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,27 +44,27 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAABwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-20T19:25:28.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "site.js",
               "DocumentMoniker": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
               "ToolTip": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\wwwroot\\js\\site.js",
               "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAAAI0AAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-13T14:59:05.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -72,12 +72,11 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAACQAAAAAAAAAAAAwwDMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-13T18:41:19.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T18:41:19.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -85,12 +84,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T14:58:11.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T14:58:11.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430\\RouteOptimization\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-13T14:57:20.387Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T14:57:20.387Z"
             }
           ]
         },

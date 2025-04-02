@@ -117,6 +117,8 @@ function exportToPdf() {
 
     // URL для Static API через прокси (без ключа)
     const staticMapUrl = `https://static-maps.yandex.ru/1.x/?ll=${mapCenter[1]},${mapCenter[0]}&z=${zoom}&size=${size}&l=map&pt=${markers}`;
+    //можете добавить ключ
+    //const staticMapUrl = `https://static-maps.yandex.ru/1.x/?key=YOUR_API_KEY_STATIC&ll=${mapCenter[1]},${mapCenter[0]}&z=${zoom}&size=${size}&l=map&pt=${markers}`;
     if (polyline) {
         staticMapUrl += `&pl=c:FF0000FF,w:5,${polyline}`; // Добавляем полилинию (маршрут)
     }
